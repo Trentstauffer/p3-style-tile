@@ -48,7 +48,21 @@ section {
 	width: 50px;
 }
 
+.color-1 {
+	background: #229487
+}
 
+.color-2 {
+	background: #7DC6D0
+}
+
+.color-3 {
+	background: #15B3A1
+}
+
+.pattern-1{
+	background: url("../img/upfeathers.png");
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
