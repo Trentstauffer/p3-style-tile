@@ -1,28 +1,41 @@
 /*Primary Header*/
+body {background-color: #2c3e50; }
 
 h1 {
-	font-family: 'Fontdiner Swanky', cursive;
-	color: salmon;
+	font-family: 'Josefin Slab', serif;
+	color: #16a085;
 }
 
+h2 {
+	font-family: 'Josefin Slab', serif;
+	color: #16a085;
+}
+
+h3 {
+	font-family: 'Josefin Slab', serif;
+	color: #16a085;
+
+}
+
+a href {style:white;}
 /*Body Text*/
 
 p{
-	font-family: 'Lobster', cursive;
-	color: #ccc;
+	font-family: 'Josefin Slab', serif;
+	color:#7f8c8d;
 	letter-spacing: 2px;
 }
 
 /*Baseline Links*/
-a:link,
+a:link {text-decoration: none}
 a:visited {
-	border-bottom: double orange 2px;
+	border-bottom:  white 2px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
 a:hover {
-	background: red;
+	background:white;
 }
 
 /* Set Your Own Margin & Padding */
@@ -30,7 +43,7 @@ h2, h3, p {
 	margin: 0;
 }
 
-/* Layout for Style Tile*/
+/* Layout for Style Tile*/ 
 section {
 	margin: 20px 0;
 }
@@ -49,15 +62,15 @@ section {
 }
 
 .color-1 {
-	background: #229487
+	background:#2c3e50
 }
 
 .color-2 {
-	background: #7DC6D0
+	background: #16a085
 }
 
 .color-3 {
-	background: #15B3A1
+	background: #7f8c8d
 }
 
 .pattern-1{
